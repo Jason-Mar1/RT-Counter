@@ -1,0 +1,9 @@
+torch>=2.0
+torchvision>=0.15
+numpy<2
+scipy
+pillow
+imgaug==0.4.0
+# YOLOE (a fork of ultralytics 8.3.39) and its MobileCLIP text encoder
+mobileclip @ git+https://github.com/THU-MIG/yoloe.git#subdirectory=third_party/ml-mobileclip
+ultralytics @ git+https://github.com/THU-MIG/yoloe.git
